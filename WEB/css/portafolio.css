@@ -1,0 +1,167 @@
+/* 
+    Document   : portafolio
+    Created on : 4/07/2013, 02:17:22 PM
+    Author     : jmrg
+    Description:
+        Purpose of the stylesheet follows.
+*/
+h2
+{
+    margin: 0 auto;
+}
+.todo
+{
+    float: left;
+    width: 1366px;
+    height: 768px;
+    background: #3C5126;
+}
+.header
+{
+    float: left;
+    width: 1366px;
+    height: 95px;
+    background: #88B441;
+    border-bottom: 5px solid #BFC4A5;
+}
+.cajaTitulo
+{
+    float: left;
+    width: 300px;
+    height: 95px;
+    margin: 0px 0px 0px 533px;;
+}
+.cajaTitulo img
+{
+    width: 300px;
+    height: 95px;
+}
+.cajaFacebook
+{
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin: 37.5px 0px 0px 10px;
+}
+.cajaFacebook img,
+.cajaTwitter img
+{
+    width: 25px;
+    height: 25px;
+}
+.cajaTwitter
+{
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin: 37.5px 0px 0px 20px;
+}
+.cajaTodasImagenes
+{
+    margin: 0 auto;
+    width: 975px;
+    height: 768px;
+    z-index: 1;
+    background: #697E55;
+}
+.portafolio
+{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    background: #000;
+    opacity: .7;
+    font-weight: bold;
+    margin: 100px 0px 0px 0px;
+    text-align: center;
+    border-radius: 0px 0px 8px 8px;
+    border-right: 1px solid #FFF;
+    border-left: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+}
+.portafolio a,
+.contacto a
+{
+    text-decoration: none;
+    color: #FFF;
+}
+.contacto
+{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    background: #000;
+    opacity: .7;
+    font-weight: bold;
+    margin: 100px 0px 0px 773px;
+    text-align: center;
+    border-radius: 0px 0px 8px 8px;
+    border-right: 1px solid #FFF;
+    border-left: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+}
+.imagenPrincipal
+{
+    float: left;
+    width: 975px;
+    height: 450px;
+}
+.imagenPrincipal img
+{
+    width: 975px;;
+    height: 450px;
+}
+.resumenNota
+{
+    position: absolute;
+    width: 400px;
+    height: 120px;
+    background: #000;
+    opacity: .7;
+    color: #FFF;
+    margin: -350px 0px 0px 0px;
+    z-index: 2;
+}
+.resumenNota h2
+{
+    font-family: Arial ligth;
+    font-size: 18px;
+    padding: 10px 0px 0px 15px;
+}
+.resumenNota span
+{
+    font-size: 12px;
+    padding: 0px 0px 0px 15px;
+}
+.imagenesFooter
+{
+    position: absolute;
+    margin: 476px 0px 0px 0px;
+    z-index: 1;
+}
+.imgFooter
+{
+    float: left;
+    width: 225px;
+    height: 130px;
+    margin: 15px 0px 0px 10px;
+}
+.imgFooterUno
+{
+    margin: 15px 0px 0px 20px; 
+}
+.imgFooter img
+{
+    width: 225px;
+    height: 130px;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid #FFF;
+}
+.logoFinal
+{
+    float: left;
+    width: 200px;
+    height: 100px;
+    background: #FFF;
+    margin: 91px 0px 0px 387.5px;
+}

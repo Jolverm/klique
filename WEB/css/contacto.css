@@ -1,0 +1,230 @@
+/* 
+    Document   : contacto
+    Created on : 4/07/2013, 03:17:28 PM
+    Author     : jmrg
+    Description:
+        Purpose of the stylesheet follows.
+*/
+h2
+{
+    margin: 0 auto;
+}
+.todo
+{
+    float: left;
+    width: 1366px;
+    height: 768px;
+    background: #3C5126;
+}
+.header
+{
+    float: left;
+    width: 1366px;
+    height: 95px;
+    background: #88B441;
+    border-bottom: 5px solid #BFC4A5;
+}
+.cajaTitulo
+{
+    float: left;
+    width: 300px;
+    height: 95px;
+    margin: 0px 0px 0px 533px;;
+}
+.cajaTitulo img
+{
+    width: 300px;
+    height: 95px;
+}
+.cajaFacebook
+{
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin: 37.5px 0px 0px 10px;
+}
+.cajaFacebook img,
+.cajaTwitter img
+{
+    width: 25px;
+    height: 25px;
+}
+.cajaTwitter
+{
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin: 37.5px 0px 0px 20px;
+}
+.cajaTodasImagenes
+{
+    margin: 0 auto;
+    width: 975px;
+    height: 768px;
+    z-index: 1;
+    background: #697E55;
+}
+.home
+{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    background: #000;
+    opacity: .7;
+    font-weight: bold;
+    margin: 100px 0px 0px 0px;
+    text-align: center;
+    border-radius: 0px 0px 8px 8px;
+    border-right: 1px solid #FFF;
+    border-left: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+}
+.home a,
+.portafolio a
+{
+    text-decoration: none;
+    color: #FFF;
+}
+.portafolio
+{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    background: #000;
+    opacity: .7;
+    font-weight: bold;
+    margin: 100px 0px 0px 773px;
+    text-align: center;
+    border-radius: 0px 0px 8px 8px;
+    border-right: 1px solid #FFF;
+    border-left: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+}
+.imagenPrincipal
+{
+    float: left;
+    width: 660px;
+    height: 521px;
+    background: #D6E0C7;
+}
+.cajaContacto
+{
+    position: absolute;
+    width: 660px;
+    height: 300px;
+    background: #8CB944;
+    z-index: 1;
+    margin: 110.5px 0px 0px 0px;
+}
+.nombreContacto
+{
+    float: left;
+    width: 250px;
+    height: 67px;
+    color: #315124;
+    margin: 20px 0px 0px 30px;
+    font-weight: bold;
+}
+.nombreContacto h2
+{
+    font-size: 30px;
+}
+.nombreContacto span
+{
+    font-size: 20px;
+    color: #FFF;
+    padding: 0px 0px 0px 155px;
+}
+.telefonoCorreo
+{
+    float: left;
+    width: 250px;
+    margin: 10px 0px 0px 410px;
+}
+.telefono
+{
+    float: left;
+    width: 240px;
+    color: #FFF;
+    font-size: 20px;
+    margin: 0px 0px 0px 1px;
+}
+.correo
+{
+    float: left;
+    width: 230px;
+    font-size: 20px;
+    margin: 0px 0px 0px 10px;
+}
+.correo a
+{
+    text-decoration: none;
+    color: #FFF;
+}
+.redesSociales
+{
+    float: left;
+    width: 180px;
+    margin: 20px 0px 0px 478px;
+}
+.paginaInternet
+{
+    float: left;
+    width: 170px;
+    font-size: 20px;
+}
+.paginaInternet a
+{
+    text-decoration: none;
+    color: #FFF;
+}
+.facebook
+{
+    float: left;
+    width: 170px;
+    color: #FFF;
+    font-size: 20px;
+    margin: 0px 0px 0px 29px;
+}
+.facebook a,
+.twitter a
+{
+    text-decoration: none;
+    color: #FFF;
+}
+.twitter
+{
+    float: left;
+    width: 170px;
+    font-size: 20px;
+    color: #FFF;
+    margin: 0px 0px 0px 30px;
+}
+.imagenesColumnas
+{
+    float: left;
+    width: 315px;
+}
+.imagenesCol
+{
+    float: left;
+    width: 310px;
+    height: 521px;;
+    margin: 0px 0px 0px 5px;
+}
+.imagenesColUno{
+    margin: 10px 0px 0px 5px;
+}
+.imagenesCol img
+{
+    width: 310px;
+    height: 521px;
+}
+.logoFinal
+{
+    float: left;
+    width: 200px;
+    height: 100px;
+    background: #FFF;
+    margin: 20px 0px 0px 387.5px;
+}
