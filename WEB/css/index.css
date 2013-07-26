@@ -17,7 +17,7 @@
     float: left;
     width: 1366px;
     height: 95px;
-    background: #88B441;
+    background: url(../media/header_der.png);
     border-bottom: 5px solid #BFC4A5;
 }
 .cajaTitulo
@@ -58,7 +58,7 @@
     width: 975px;
     height: 768px;
     z-index: 1;
-    background: #697E55;
+    background: #486032;
 }
 .home
 {
@@ -154,6 +154,11 @@
     float: left;
     width: 200px;
     height: 100px;
-    background: #FFF;
+    background-image: url(../media/footer.png);
     margin: 20px 0px 0px 387.5px;
+}
+.logoFinal img
+{
+    width: 200px;
+    height: 100px
 }
