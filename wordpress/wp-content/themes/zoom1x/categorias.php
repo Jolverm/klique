@@ -31,4 +31,3 @@
         <img src="<?php bloginfo( 'template_directory' ); ?>/img/paisaje.jpg" alt="#" title="#" />
     </div>
 </div> <!-- termina ImagenesCategorias -->
-<?php print_r($categories); ?>sdmodsm

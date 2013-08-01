@@ -1,8 +1,15 @@
 <?php get_header(); ?>
 
            		<div class="principal">
-           		
- 				  <?php if ( function_exists('show_nivo_slider') ) { show_nivo_slider(); } ?>
+           						 				  
+					 <div class="slider-wrapper theme-default">
+					 <div class="ribbon"></div>
+					 <div id="nivoslider" class="nivoSlider">
+						<img src="<?php bloginfo( 'template_directory' ); ?>/img/slider/1.jpg" data-thumb="<?php bloginfo( 'template_directory' ); ?>/img/slider/1.jpg" alt=""/>
+				        <img src="<?php bloginfo( 'template_directory' ); ?>/img/slider/2.jpg" data-thumb="<?php bloginfo( 'template_directory' ); ?>/img/slider/2.jpg" alt="" data-transition="slideInLeft" />
+					 </div>
+					 </div>
+
 
 				</div>
            		  <!-- Termina Principal-->

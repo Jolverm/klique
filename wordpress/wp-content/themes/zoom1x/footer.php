@@ -1,8 +1,20 @@
 <!-- Aqui van todos los scripts de js -->
-<script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/js/nivo.js"></script>
+
 <script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/js/galeria.js"></script>
+<script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/js/jquery.nivo.slider.js"></script>
+<script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/js/jquery.nivo.slider.pack.js"></script>
 
 
+
+<script type="text/javascript">
+
+ $(window).load(function() {
+
+ $('#nivoslider').nivoSlider();
+
+ });
+
+ </script>
 
 <!-- inicia footer -->
 <footer>
