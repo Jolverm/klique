@@ -1,0 +1,160 @@
+/* 
+    Document   : index
+    Created on : 3/07/2013, 06:32:54 PM
+    Author     : jmrg
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+@font-face{ 
+  font-family: 'letra';
+  src: url(../fonts/font.eot);
+  src: url(../fonts/font.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/font.woff) format('woff'),
+       url(../fonts/font.ttf) format('truetype'),
+       url(../fonts/font.svg#webfont) format('svg');
+        }
+
+
+body {
+	width: 1366px;
+	overflow: hidden;
+}
+
+.todo
+{
+    float: left;
+    width: 1366px;
+    height: 768px;
+    background: #3C5126;
+}
+.header
+{
+    float: left;
+    width: 1366px;
+    height: 95px;
+    background: url(../img/header.png);
+    border-bottom: 5px solid #BFC4A5;
+}
+.cajaTitulo
+{
+    float: left;
+    width: 300px;
+    height: 95px;
+    margin: 0px 0px 0px 533px;;
+}
+.cajaTitulo img
+{
+    width: 300px;
+    height: 95px;
+}
+.cajaFacebook
+{
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin: 37.5px 0px 0px 10px;
+}
+.cajaFacebook img,
+.cajaTwitter img
+{
+    width: 25px;
+    height: 25px;
+}
+.cajaTwitter
+{
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin: 37.5px 0px 0px 20px;
+}
+.cajaTodasImagenes
+{
+    margin: 0 auto;
+    padding-top: 5px;
+    width: 975px;
+    height: 763px;
+    z-index: 1;
+    background: #486032;
+}
+
+.imagenPrincipal
+{
+    float: left;
+    width: 660px;
+    height: 375px;
+}
+.imagenPrincipal img
+{
+    width: 660px;
+    height: 375px;
+}
+.imagenesColumnas
+{
+    float: left;
+    width: 315px;
+}
+.imagenesCol
+{
+    float: left;
+    width: 150px;
+    height: 117px;;
+    margin: 5px 0px 0px 5px;
+}
+.imagenesColUno{
+    margin: 10px 0px 0px 5px;
+}
+.imagenesCol img
+{
+    width: 150px;
+    height: 117px;
+}
+.imagenesCategorias
+{
+    float: left;
+
+}
+.imgCategorias
+{
+    float: left;
+    width: 180px;
+    height: 100px;
+    margin: 15px 0px 0px 10px;
+}
+.imgCategoriasUno
+{
+    margin: 15px 0px 0px 20px; 
+}
+.imgCategorias img
+{
+    width: 180px;
+    height: 100px;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid #FFF;
+}
+.logoFinal
+{
+    float: left;
+    width: 200px;
+    height: 100px;
+    background-image: url(../img/footer.png);
+    margin: 20px 0px 0px 387.5px;
+}
+.logoFinal img
+{
+    width: 200px;
+    height: 100px
+}
+
+
+.derechos
+{
+margin: 15px 0px 0px 380px;
+font-family:'letra';
+width: 250px;
+height:16;
+float:left;
+font-size: 15px;
+color:white;
+}
