@@ -20,4 +20,5 @@
 			<?php endif; ?>
     </aside>
     <!-- termina imagene0 galeria -->
+    <?php get_template_part('general/barra', 'categorias'); ?>
 <?php get_footer(); ?>
