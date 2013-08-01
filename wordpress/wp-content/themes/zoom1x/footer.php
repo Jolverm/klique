@@ -1,5 +1,6 @@
 <!-- Aqui van todos los scripts de js -->
 <script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/js/nivo.js"></script>
+<script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/js/galeria.js"></script>
 
 
 
