@@ -69,6 +69,15 @@ body {
     height: 25px;
     margin: 37.5px 0px 0px 20px;
 }
+
+.principal
+{
+    width: 975px;
+    height: 385px;
+    float: left;
+}
+
+
 .cajaTodasImagenes
 {
     margin: 0 auto;
@@ -90,6 +99,7 @@ body {
     width: 660px;
     height: 375px;
 }
+
 .imagenesColumnas
 {
     float: left;
@@ -150,11 +160,11 @@ body {
 
 .derechos
 {
-margin: 15px 0px 0px 380px;
-font-family:'letra';
-width: 250px;
+color:white;
 height:16;
+margin: 15px 0px 0px 380px;
 float:left;
 font-size: 15px;
-color:white;
+font-family:'letra';
+width: 250px;
 }

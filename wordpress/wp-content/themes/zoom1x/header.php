@@ -22,16 +22,6 @@
             
  		<?php get_template_part('logo'); ?>
 
- 			   <!-- inicia cajaTodasImagenes -->
-           <div class="cajaTodasImagenes">
+ 			   
 
-           		<div>
-           		
-           		<?php if ( function_exists('show_nivo_slider') ) { show_nivo_slider(); } ?>
-
-           		</div>
-                
-                
-               
-                <?php get_template_part('categorias'); ?>
                 

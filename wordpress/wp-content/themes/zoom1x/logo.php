@@ -12,3 +12,8 @@
             </header>
             <!-- termina header -->
             
+
+            <!-- inicia cajaTodasImagenes -->
+           <div class="cajaTodasImagenes">
+
+            
