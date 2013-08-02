@@ -5,9 +5,9 @@
   <ul id="slidingMenu" class="slidingMenu">
     <li><a href="<?php bloginfo('wpurl'); ?>">Inicio</a></li>
     <li><a href="<?php bloginfo('wpurl'); ?>/servicios">Servicios</a></li>
-    <li><a href="<?php bloginfo('wpurl'); ?>/category/alimentos">Portfolio</a></li>
+    <li><a href="<?php bloginfo('wpurl'); ?>/category/alimentos">Portafolio</a></li>
     <li><a href="<?php bloginfo('wpurl'); ?>/paquetes">Paquetes</a></li>
     <li><a href="<?php bloginfo('wpurl'); ?>/quienes-somos">Quienes Somos</a></li>
-    <li><a href="<?php bloginfo('wpurl'); ?>/contacto">Contacto</a></li>
+    <li><a href="<?php bloginfo('wpurl'); ?>/?page_id=4">Contacto</a></li>
   </ul>
 </nav>
