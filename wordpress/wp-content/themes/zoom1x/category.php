@@ -12,7 +12,7 @@
     <aside class="imagenesColumnas">
     	
     	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-            <div class="imagenesCol" onclick="mostrar_grande('<?php echo get_the_ID(); ?>');">
+            <div class="imagenesCol" onmouseover="mostrar_grande('<?php echo get_the_ID(); ?>');">
                 <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
             </div>
     		<?php endwhile; else: ?>

@@ -1,9 +1,60 @@
+/* 
+ * Estilos para barra de navegación de categorias
+ */
+
 .imagenPrincipal
 {
 	overflow: hidden;
 }
 .imagenesColumnas
 {
-	overflow: hidden;
+	cursor: pointer;
 	height: 370px;
+	overflow: hidden;
+
+}
+
+/* 
+ * Estilos para barra de navegación principal (sidebar)
+ */
+
+.sidebar
+{
+	position: absolute;
+	margin: 95px 0px 0px 1100px;
+	width: 250px;
+}
+.sidebar h2
+{
+	background-color: #fff;
+	color: #3C5126;
+	float: left;
+	font-size: 23px;
+	font-weight: bold;
+	margin: 10px 0px 0px 85px;
+	text-align: center;
+	width: 150px;
+}
+.sidebar ul
+{
+	display: none;
+	list-style: none;
+}
+.sidebar ul li
+{
+	float: left;
+	text-align: center;
+	width: 250px;
+}
+.sidebar ul li a
+{	
+	color: #fff;
+	font-size: 23px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.sidebar ul li a:hover
+{
+	color: #3C5126;
+	background-color: #fff;
 }
