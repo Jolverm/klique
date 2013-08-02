@@ -12,13 +12,11 @@
 
  $('#nivoslider').nivoSlider();
 
-<<<<<<< HEAD
+
  });
 
  </script>
 
-=======
->>>>>>> origin/shannonbit
 <!-- inicia footer -->
 <footer>
    <?php get_template_part('derechos'); ?>

@@ -14,6 +14,6 @@
 				</div>
            		  <!-- Termina Principal-->
               
-                <?php get_template_part('categorias'); ?>
+                <?php get_template_part('general/barra', 'categorias'); ?>
  
  <?php get_footer();?>
