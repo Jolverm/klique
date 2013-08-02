@@ -5,9 +5,20 @@
 					 <div class="slider-wrapper theme-default">
 					 <div class="ribbon"></div>
 					 <div id="nivoslider" class="nivoSlider">
-						<img src="<?php bloginfo( 'template_directory' ); ?>/img/slider/1.jpg" data-thumb="<?php bloginfo( 'template_directory' ); ?>/img/slider/1.jpg" alt=""/>
-				        <img src="<?php bloginfo( 'template_directory' ); ?>/img/slider/2.jpg" data-thumb="<?php bloginfo( 'template_directory' ); ?>/img/slider/2.jpg" alt="" data-transition="slideInLeft" />
-					 </div>
+
+					 	<?php query_posts('category_name=slides&posts_per_page=2'); ?>
+						<?php if (have_posts()) : ?>
+						<?php while (have_posts()) : the_post(); ?>
+						
+						<?php $foto = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'small' );
+						$src = $foto['0'];
+						echo '<img src="'.$src.'">';
+						?>
+				   	 	
+					<?php endwhile; ?>
+					<?php endif; ?>
+
+				   	 </div>
 					 </div>
 
 
