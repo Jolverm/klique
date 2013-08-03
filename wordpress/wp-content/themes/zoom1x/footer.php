@@ -1,8 +1,6 @@
 <!-- Aqui van todos los scripts de js -->
 
-<script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/js/galeria.js"></script>
-<script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/js/jquery.nivo.slider.js"></script>
-<script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/js/jquery.nivo.slider.pack.js"></script>
+	<?php llamar_ficheros('js', 'js'); ?>
 
 
 
