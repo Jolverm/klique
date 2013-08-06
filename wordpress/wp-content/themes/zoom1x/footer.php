@@ -15,6 +15,13 @@
 
  </script>
 
+<script>
+        $("#hidr").click(function () {
+        $("span").slideToggle("slow");
+        });
+ </script>
+
+
 <!-- inicia footer -->
 <footer>
    <?php get_template_part('derechos'); ?>

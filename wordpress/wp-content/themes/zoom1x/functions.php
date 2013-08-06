@@ -33,6 +33,7 @@ add_action( 'init', 'registrar_menus' );
 function llamar_ficheros($dir, $tipo)
 {
 	$ruta = './wp-content/themes/'.str_replace(' ', '', get_current_theme()).'/'.$dir;
+	$ruta = strtolower($ruta);
 	$directorio = opendir($ruta); //ruta actual
 	while ($archivo = readdir($directorio)) //obtenemos un archivo y luego otro sucesivamente
 	{
