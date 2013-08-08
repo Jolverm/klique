@@ -18,17 +18,17 @@
 
 
 body {
-	width: 1366px;
 	overflow: hidden;
+    background: #89B642;
+
 }
 
 .todo
 {
-    float: left;
+    margin: 0 auto;
     width: 1366px;
     height: auto;
     background: #89B642;
-    z-index: 1;
 }
 
 
@@ -39,8 +39,8 @@ body {
 
 .header
 {
-    float: left;
-    width: 1366px;
+    margin: 0 auto;
+    width: 100%;
     height: 95px;
     background: url(../img/header.png);
     border-bottom: 5px solid #BFC4A5;
@@ -89,14 +89,22 @@ body {
 
 .principal
 {
+    width: 975px;
+    height: auto;
+    float: left;
+    background: #486032;
+    z-index: 1;
+}
+
+
+.slider
+{
     width: 622px;
     height: 415px;
     float: left;
     background: #486032;
     margin-left: 190px;
     z-index: 1;
-
-
 }
 
 /**********************
@@ -110,10 +118,10 @@ body {
     margin: 0 auto;
     padding-top: 5px;
     width: 975px;
-    height: 600px;
+    height: 514px;
     z-index: 1;
     background: #486032;
-    z-index: 100;
+  
 }
 
 .imagenPrincipal
@@ -198,17 +206,14 @@ body {
 .logoFinal
 {
     float: left;
-    width: 200px;
+    width: 100%;
     height: 100px;
     background-image: url(../img/footer.png);
-    margin: 20px 0px 0px 387.5px;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
-.logoFinal img
-{
-    width: 200px;
-    height: 100px;
-    background-image: url(../img/footer.png);
-}
+    
+
 
 
 /**********************
@@ -218,13 +223,14 @@ body {
 
 .derechos
 {
-color:white;
 height:16;
-margin: 15px 0px 0px 380px;
+width: 100%;
+color:white;
 float:left;
 font-size: 15px;
 font-family:'letra';
-width: 250px;
+text-align: center;
+background-color: #486032;
 
 }
 
@@ -276,23 +282,28 @@ width: 250px;
 /    PAQUETES    *
 ***********************/
 
+
 .paquetes 
 {
         margin: 50px auto 50px auto;
         text-align: center;
-        width: 892px; /* total computed width = 222 x 3 + 226 */
+        width: 930px; /* total computed width = 222 x 3 + 226 */
+        
     }
 
     .paquetes .textoPaquetes {
         font: 12px 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;
         text-shadow: 0 1px rgba(255,255,255,.8);        
         background: #fff;      
-        border: 1px solid #ddd;
-        color: #fff;
+        border: 3px solid #486032;
+        color: #486032;
         padding: 20px;
         width: 180px; /* plan width = 180 + 20 + 20 + 1 + 1 = 222px */      
         float: left;
         position: relative;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        border-radius: 15px;
     }
     
     /* --------------- */   
@@ -302,22 +313,26 @@ width: 250px;
         font-size: 20px;
         font-weight: normal;
         padding: 20px;
-        margin: -20px -20px 50px -20px;
+        margin: -20px -20px 20px -20px;
         background-color: #87B642;
+
        
     }
     
     
-    .paquetes h3 span 
+    .paquetes span 
     {
+        font-size: 20px;
+        padding: 20px;
+        margin: -20px -20px 20px -20px;
+        background-color: #87B642;
         display: block;
-        font: bold 25px/30px Georgia, Serif;
         color: #777;
         background: #fff;
         border: 5px solid #fff;
-        height: 30px;
-        width: 150px;
-        margin: 10px auto -65px;
+        height: 10px;
+        width: 100px;
+        margin: 10px auto -47px;
         -moz-border-radius: 100px;
         -webkit-border-radius: 100px;
         border-radius: 100px;
@@ -334,7 +349,6 @@ width: 250px;
         padding: 0;
         list-style: none;
         color: #777;
-
     }
 
     .paquetes li 
@@ -342,59 +356,26 @@ width: 250px;
         border-top: 1px solid #ddd;
         padding: 3px 0;
         width: auto;
-
     }
 
 
-
-.terminos span
-{
-     display: none;
-}
 
 
 
 .terminos{
     
-      width: 50px;
-      height: 50px;
-      float: right;
-      margin: 0 auto;
-      z-index: 10;
-      position: relative;
-      
+      width: 975px;
+      height: auto;
+      float: left;
+      margin: 35px auto;    
+      background-color: #87B642;
+      font: 18px 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;
+      color: white;
+       text-shadow: 0 1px rgba(12, 49, 12, 0.8);       
+
           
+
+
   }
 
 
-.boton {
-    background-color:transparent;
-    -moz-border-radius:13px;
-    -webkit-border-radius:13px;
-    border-radius:13px;
-    border:1px solid #7e807c;
-    display:inline-block;
-    color:#ffffff;
-    font-family:arial;
-    font-size:13px;
-    font-weight:bold;
-    padding:2px 11px;
-    text-decoration:none;
-    text-shadow:1px 1px 3px #528009;
-        
-        
-}.boton:active {
-    position:relative;
-    top:1px;
-}
-
-.condiciones
-{
-float: left;
-width: 975px;
-height: 200px;
-background-color: red;
-margin: 10px 0px 0px 0px;
-text-align: center;
-font-family: 'letra'
-}

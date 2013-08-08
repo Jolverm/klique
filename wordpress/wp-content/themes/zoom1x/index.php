@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-           		<div class="principal">
+           		<div class="slider">
            						 				  
 					 <div class="slider-wrapper theme-default">
 					 <div class="ribbon"></div>
