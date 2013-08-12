@@ -16,10 +16,21 @@ body
 	left: 0;
 	z-index: 1;
 }
+.fondoQuienes
+{
+	float: left;
+	height: 700px;
+	overflow: hidden;
+	width: 1366px
+;}
 .fondoQuienes img
 {
 	float: left;
+	margin: -350px 0px 0px 0px;
+	position: absolute;
+	opacity: .8;
 	width: 1366px;
+	z-index: 2;
 }
 .quienesSomos
 {
@@ -31,7 +42,6 @@ body
 }
 .quienesSomos p
 {
-	color: #fff;
 	float: left;
 	width: 640px;
 }

@@ -13,9 +13,12 @@
 
 .sidebar
 {
-	position: absolute;
-	margin: 95px 0px 0px 1100px;
-	width: 250px;
+	margin: 0 auto;
+	height: 50px;
+	top: 0px;
+	position: relative;
+	left: 0;
+	z-index: 2;
 }
 .sidebar h2
 {
@@ -30,26 +33,35 @@
 }
 .sidebar ul
 {
-	display: none;
 	list-style: none;
 }
 .sidebar ul li
 {
+	background-color: #000;
+	/*  Border Radius */
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	/*----------------*/
 	float: left;
+	opacity: .7;
 	text-align: center;
-	width: 250px;
+	margin: 2.5px;
+	width: 150px;
 }
 .sidebar ul li a
 {	
-	color: #fff;
-	font-size: 23px;
+	color: #3C5126;
+	font-size: 18px;
 	font-weight: bold;
 	text-decoration: none;
 }
 .sidebar ul li a:hover
 {
-	color: #3C5126;
-	background-color: #fff;
+	color: #fff;
 }
 .wp-post-image
 {

@@ -1,7 +1,10 @@
 <!-- Página de Quiénes somos.-->
 <?php get_header(); ?>
-<?php $imagen = array('1', '2', '3'); ?>
-<?php $i = rand(0, 2) ?>
+<?php for ($i=1; $i <= 20; $i++) { 
+    $imagen[$i] = $i;
+} ?>
+<?php $count = count(($imagen)) - 1; ?>
+<?php $i = rand(0, $count); ?>
 <!-- inicia imagenes galeria -->
     <article class="quienesSomos">
     	<p>

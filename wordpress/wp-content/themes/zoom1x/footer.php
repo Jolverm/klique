@@ -27,13 +27,11 @@
 	  itemSelector: '.wp-post-image'
 	});
 </script>
-
 <!-- inicia footer -->
 <footer>
    <?php get_template_part('derechos'); ?>
 </footer><!-- termina footer -->
 </div><!-- termina imagenes -->
 </div> <!-- termina todo -->
-<?php get_sidebar(); ?>
 </body>
 </html>
