@@ -20,7 +20,13 @@
         $("span").slideToggle("slow");
         });
  </script>
-
+<script type="text/javascript">
+	var container = document.querySelector('#contenedorGaleria');
+	var msnry = new Masonry( container, {
+	  // options
+	  itemSelector: '.wp-post-image'
+	});
+</script>
 
 <!-- inicia footer -->
 <footer>

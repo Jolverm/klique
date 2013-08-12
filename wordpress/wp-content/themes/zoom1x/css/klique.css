@@ -109,8 +109,13 @@ body {
 .imagenesColumnas
 {
     float: left;
-    width: 315px;
+    width: 900px;
     overflow: hidden;
+}
+.imagenesColumnas img
+{
+    float: left;
+    margin: 5px;
 }
 .imagenesCol
 {

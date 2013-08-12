@@ -6,13 +6,6 @@
 {
 	overflow: hidden;
 }
-.imagenesColumnas
-{
-	cursor: pointer;
-	height: 370px;
-	overflow: hidden;
-
-}
 
 /* 
  * Estilos para barra de navegación principal (sidebar)
@@ -57,4 +50,13 @@
 {
 	color: #3C5126;
 	background-color: #fff;
+}
+.wp-post-image
+{
+	width: 200px;
+	height: auto;
+}
+.wp-post-image:hover
+{
+	cursor: pointer;
 }
