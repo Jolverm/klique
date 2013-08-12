@@ -11,4 +11,5 @@
 <body>
   <!-- inicia todo -->
  <div class="todo">
- 		<?php get_template_part('logo');
+ 		<?php get_template_part('logo'); ?>
+ 		<?php get_sidebar(); ?>

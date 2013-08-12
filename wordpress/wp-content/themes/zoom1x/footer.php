@@ -15,13 +15,21 @@
 
  </script>
 
+<script>
+        $("#hidr").click(function () {
+        $("span").slideToggle("slow");
+        });
+ </script>
+<script type="text/javascript">
+	var container = document.querySelector('#contenedorGaleria');
+	var msnry = new Masonry( container, {
+	  // options
+	  itemSelector: '.wp-post-image'
+	});
+</script>
 <!-- inicia footer -->
 
 </div><!-- termina imagenes -->
 </div> <!-- termina todo -->
-<?php get_sidebar(); ?>
-<footer>
-   <?php get_template_part('derechos'); ?>
-</footer><!-- termina footer -->
 </body>
 </html>

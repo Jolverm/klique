@@ -22,7 +22,17 @@ body {
     background: #89B642;
 
 }
-
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    text-transform: lowercase; 
+}
 .todo
 {
     margin: 0 auto;
@@ -139,8 +149,13 @@ body {
 .imagenesColumnas
 {
     float: left;
-    width: 315px;
+    width: 900px;
     overflow: hidden;
+}
+.imagenesColumnas img
+{
+    float: left;
+    margin: 5px;
 }
 .imagenesCol
 {
@@ -180,9 +195,12 @@ body {
 .imgCategorias
 {
     float: left;
-    width: 123px;
-    height: 163px;
-    margin: 0px 0px 0px 10px;
+
+    width: 180px;
+    margin: 15px 0px 0px 10px;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid #FFF;
+
 
 }
 .imgCategoriasUno
@@ -191,10 +209,24 @@ body {
 }
 .imgCategorias img
 {
-    width: 123px;
-    height: 163px;
+
+    width: 180px;
+}
+.imgCategorias a
+{
+    color: #87B642;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
     border-radius: 8px 8px 8px 8px;
-    border: 1px solid #FFF;
+    background-color: #40652F;
+    padding: 5px;
+}
+.imgCategorias a:hover
+{
+    color: #fff;
 }
 
 

@@ -1,0 +1,52 @@
+body
+{
+	background-color: #87B642;
+}
+.todo
+{
+	background-color: #87B642;
+}
+.fondoQuienes
+{
+	float: left;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	top: 100px;
+	left: 0;
+	z-index: 1;
+}
+.fondoQuienes
+{
+	float: left;
+	height: 700px;
+	overflow: hidden;
+	width: 1366px
+;}
+.fondoQuienes img
+{
+	float: left;
+	margin: -350px 0px 0px 0px;
+	position: absolute;
+	opacity: .8;
+	width: 1366px;
+	z-index: 2;
+}
+.quienesSomos
+{
+	margin: 0 auto;
+	height: 375px;
+	width: 955px;
+	position: relative;
+	z-index: 2;
+}
+.quienesSomos p
+{
+	float: left;
+	width: 640px;
+}
+.quienesSomos img
+{
+	float: left;
+	width: 315px;
+}
