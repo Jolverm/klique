@@ -21,7 +21,17 @@ body {
 	width: 1366px;
 	overflow: hidden;
 }
-
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    text-transform: lowercase; 
+}
 .todo
 {
     float: left;
@@ -135,14 +145,15 @@ body {
 .imagenesCategorias
 {
     float: left;
-
 }
 .imgCategorias
 {
     float: left;
     width: 180px;
-    height: 100px;
     margin: 15px 0px 0px 10px;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid #FFF;
+
 }
 .imgCategoriasUno
 {
@@ -151,9 +162,22 @@ body {
 .imgCategorias img
 {
     width: 180px;
-    height: 100px;
+}
+.imgCategorias a
+{
+    color: #87B642;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
     border-radius: 8px 8px 8px 8px;
-    border: 1px solid #FFF;
+    background-color: #40652F;
+    padding: 5px;
+}
+.imgCategorias a:hover
+{
+    color: #fff;
 }
 .logoFinal
 {

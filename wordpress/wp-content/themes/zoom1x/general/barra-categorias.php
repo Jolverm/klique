@@ -6,6 +6,7 @@
     <div class="imgCategorias <?php echo ($contador == 0)? 'imgCategoriasUno' : ''; ?>">
         <a href="<?php bloginfo('wpurl'); ?>/category/<?php echo $categoria; ?>" rel="tag">
             <img src="<?php bloginfo( 'template_directory' ); ?>/img/categorias/<?php echo $categoria; ?>.jpg" alt="<?php echo ucfirst($categoria); ?>" title="<?php echo ucfirst($categoria); ?>" />
+            <?php echo str_replace('-', ' ', $categoria); ?>
         </a>
     </div>
     <?php $contador++; ?>
