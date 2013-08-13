@@ -23,7 +23,7 @@
                     <input class="campos" id="nombre" name="nombre" type=" text" placeholder="nombre">
                     <input class="campos" id="email" name="email" type="email" placeholder="correo" >
                     <p>
-                    <textarea class="campos" id="mensaje" name="mensaje" cols="49" rows="2" placeholder="mensaje"></textarea>
+                    <textarea class="campos" id="mensaje" name="mensaje" cols="43" rows="1" placeholder="mensaje"></textarea>
                     <div class="enviar">
                             <div class="ultimo">
                                     <img src="<?php bloginfo( 'template_directory' ); ?>../img/loading.gif" class="ajaxgif hide" />
