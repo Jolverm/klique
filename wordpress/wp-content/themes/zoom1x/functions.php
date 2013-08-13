@@ -9,7 +9,10 @@ if ( function_exists( 'add_theme_support' ) ) {
 
 
 if ( function_exists( 'add_image_size' ) ) { 
-	add_image_size( 'slide', 622, 415, false); }
+	add_image_size( 'slide', 622, 415, false);
+	add_image_size( 'small', 200, 300, false);
+	 }
+
 
 }
 
