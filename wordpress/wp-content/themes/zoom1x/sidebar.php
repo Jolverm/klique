@@ -1,3 +1,4 @@
+
 <nav class="sidebar" onmouseover="mostrar_menu();" onmouseout="ocultar_menu();">
   <ul id="slidingMenu" class="slidingMenu">
     <li><a href="<?php bloginfo('wpurl'); ?>">Inicio</a></li>

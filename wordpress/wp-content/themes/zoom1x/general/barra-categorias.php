@@ -1,7 +1,7 @@
 <!-- inicia ImagenesCategorias -->
 <aside class="imagenesCategorias">
 <?php $contador = 0; ?>
-<?php $categorias = array('alimentos', 'industria', 'producto', 'retrato', 'espectaculos-y-deportes'); ?>
+<?php $categorias = array('alimentos', 'industria', 'retrato', 'producto', 'entretenimiento'); ?>
 <?php foreach ($categorias as $categoria) { ?>
     <div class="imgCategorias <?php echo ($contador == 0)? 'imgCategoriasUno' : ''; ?>">
         <a href="<?php bloginfo('wpurl'); ?>/category/<?php echo $categoria; ?>" rel="tag">

@@ -15,5 +15,7 @@
 
             <!-- inicia cajaTodasImagenes -->
            <div class="cajaTodasImagenes">
-
+            <div class="menu">
+            <?php get_template_part('sidebar'); ?>
+            </div>    
             

@@ -15,10 +15,10 @@ $mail->Password = "kl1qu3";
 // Asignamos el From y el FromName para que el destinatario sepa quien
 // envía el correo
 $mail->CharSet = 'UTF-8';
-$mail->From = "web@klique.com.mx";
-$mail->FromName = "KLIQUE";
+$mail->From = $_POST['email']; 
+$mail->FromName $_POST['nombre'];
 //Añadimos la dirección del destinatario
-$mail->AddAddress('jorge@emprend.me');
+$mail->AddAddress('xmonterde@klique.com.mx');
 //Asignamos el subject, el cuerpo del mensaje y el correo alternativo
 $mail->Subject = "SOLICITUD DE INFORMACION";
 $correo = $_POST['email']; 

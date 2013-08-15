@@ -21,8 +21,9 @@ body
 	float: left;
 	height: 700px;
 	overflow: hidden;
-	width: 1366px
-;}
+	width: 1366px;
+}
+
 .fondoQuienes img
 {
 	float: left;
@@ -34,20 +35,33 @@ body
 }
 .quienesSomos
 {
-	margin: 0 auto;
-	height: 375px;
-	width: 955px;
+	
+	height: auto;
+	width: 700px;
 	position: relative;
 	z-index: 2;
+	float: left;
 }
 .quienesSomos p
 {
 	float: left;
 	width: 640px;
 }
-.quienesSomos img
+.imagenQuienes
 {
-	float: left;
-	margin: -50px 0px 0px 0px;
-	width: 315px;
+	margin: 0px 0px 0px 0px;
+	width: 250px;
+	height: 375px;
+		position: relative;
+	z-index: 10;
+	
+}
+
+.imagenQuienes img
+{
+	float: right;
+	margin: 15px 0px 0px 0px;
+	width: 250px;
+	height: 375px;
+
 }

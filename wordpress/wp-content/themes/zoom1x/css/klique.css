@@ -100,16 +100,17 @@ h6
 
 .slider
 {
-    width: 622px;
-    height: 415px;
+    width: 750px;
+    height: 500px;
     float: left;
     background: #486032;
-    margin-left: 190px;
+    margin-left: 120px;
+    margin-top: -30px;
     z-index: 1;
 }
 
 /**********************
-/    IMAGENES    *
+/     GALERIA          *
 ***********************/
 
 .cajaTodasImagenes
@@ -120,49 +121,36 @@ h6
     height: 514px;
     z-index: 1;
     background: #486032;
-  
+    padding-bottom: 30px;
+
 }
 
-.imagenPrincipal
+.galeria
 {
-    float: left;
-    width: 660px;
-    height: auto;
-}
-.imagenPrincipal img
-{
-    width: auto;
-    height: auto;
+float: left;
+width: 925px;
+height: auto;
+margin: 0px 0px 0px 25px ;
+
 }
 
-.imagenesColumnas
+.imagenIndividual
 {
+    width: 150px;
+    height: 150px;
     float: left;
-    width: 900px;
+    margin: 2px;
     overflow: hidden;
 }
 
-.imagenesColumnas img
+
+.imagenIndividual img
 {
-    float: left;
-    margin: 5px;
+    margin: -25px -25px;
+
+
 }
 
-.imagenesCol
-{
-    float: left;
-    width: 150px;
-    height: 117px;;
-    margin: 5px 0px 0px 5px;
-}
-.imagenesColUno{
-    margin: 10px 0px 0px 5px;
-}
-.imagenesCol img
-{
-    width: 150px;
-    height: 117px;
-}
 
 
 
@@ -177,7 +165,7 @@ h6
     float: left;
     width: 670px;
     height: 170px;
-    margin: -100px 0px 0px 167px;
+    margin: -24px 0px 0px 167px;
     position: relative;
     z-index: 100;
 
@@ -227,6 +215,7 @@ h6
 
 .logoFinal
 {
+    margin-top: 50px;
     float: left;
     width: 100%;
     height: 100px;
@@ -261,14 +250,16 @@ h6
     float: left;
     width: 640px;
     height: 375px;
-    padding: 10px; 
+    padding: 10px;
+    background-color: #426531;
+    opacity: 0.7; 
 }
 
 .quienesSomos h1{ 
     text-align: center; 
     margin: 20px auto; 
     font-family: 'letra'; 
-    font-size: 14px; 
+    font-size: 18px; 
     text-transform: uppercase; 
     color: white;
     text-shadow: 0px 2px 3px #555;
@@ -534,3 +525,36 @@ background-color: #fff;
 margin-left: 5px;
 }
 
+
+.direccion
+{
+height: 100px;
+width: 975px;
+float: left;
+}
+
+.textoDireccion
+{
+height: 100px;
+width: 350px;
+float: left;
+margin: 10px 0px 0px 55px;
+font-family: 'letra';
+color: white;
+
+}
+
+.imagenDireccion
+{
+height: 80px;
+width: 80px;
+float: left;
+margin: 10px 0px 10px 25px;
+}
+
+.imagenDireccion img
+{
+height: 80px;
+width: 80px;
+
+}
