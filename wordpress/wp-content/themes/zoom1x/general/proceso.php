@@ -11,14 +11,14 @@ $mail->Mailer = "smtp";
 $mail->Host = "mail.klique.com.mx";
 $mail->SMTPAuth = true;
 $mail->Username = "web@klique.com.mx";
-$mail->Password = "kl1qu3";
+$mail->Password = "kl1qu3kl1qu3";
 // Asignamos el From y el FromName para que el destinatario sepa quien
 // envía el correo
 $mail->CharSet = 'UTF-8';
 $mail->From = $_POST['email']; 
-$mail->FromName $_POST['nombre'];
+$mail->FromName = $_POST['nombre'];
 //Añadimos la dirección del destinatario
-$mail->AddAddress('xmonterde@klique.com.mx');
+$mail->AddAddress('contacto@klique.com.mx');
 //Asignamos el subject, el cuerpo del mensaje y el correo alternativo
 $mail->Subject = "SOLICITUD DE INFORMACION";
 $correo = $_POST['email']; 

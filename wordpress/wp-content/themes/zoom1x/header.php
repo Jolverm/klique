@@ -5,7 +5,8 @@
 <head>
 	<title>klique</title>
 	<meta charset="utf-8" />
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/jquery.js"></script>
+	<script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/modernizr.js"></script>
 	<?php llamar_ficheros('css', 'css'); ?>
 </head>
 <body>

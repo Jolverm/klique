@@ -22,7 +22,7 @@ $(document).ready(function(){
 						'&mensaje=' + mensaje;
 			$.ajax({
 	    		type: "POST",
-	    		url: "wp-content/themes/zoom1x/general/proceso.php",
+	    		url: "http://www.klique.com.mx/wp-content/themes/zoom1x/general/proceso.php",
 	    		data: datos,
 	    		success: function() {
 					$('.ajaxgif').hide();

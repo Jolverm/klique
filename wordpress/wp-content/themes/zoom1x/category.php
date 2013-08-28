@@ -9,13 +9,25 @@
 							<?php $src1 = $imagen['0']; ?>
 							<?php $src2 = $miniatura['0']; ?>
 							<div class="imagenIndividual">
-								<a href="<?php echo $src1 ?>" data-lightbox="categoria" title="<?php the_title(); ?>">
+								<a href="<?php echo $src1 ?>" data-lightbox="categoria">
 								<img class="wp-post-image" src="<?php echo $src2 ?>" alt="<?php the_title();?>" />
 								</a>
 							</div><!-- fin de imagen individual-->
 				<?php endwhile; else: ?>
 				<p><?php _e('Lo sentimos la categoria esta vacia.'); ?></p>
 				<?php endif; ?>
+				<?php if (is_category('retrato')){ ?>
+					<div class="mensaje">
+						<span>Categorias</span>
+						<span>Familia</span>
+						<span>Mamás</span>
+						<span>Niños</span>
+						<span>Estudio</span>
+						<span>Locaciones</span>
+						<span>Mascotas</span>
+					</div>
+				<?php } ?>
+
 			</div> <!-- fin de galeria-->
 
 			

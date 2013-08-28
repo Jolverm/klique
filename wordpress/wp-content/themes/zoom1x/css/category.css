@@ -82,3 +82,20 @@ z-index: 50;
 {
 	cursor: pointer;
 }
+
+.mensaje
+{
+	width: 126px;
+	height: 200px;
+	margin: 111px 0px 0px 0px;
+	position: relative;	
+	z-index: 10;
+	color: white;
+    font-family: 'letra';
+    font-size: 20px;
+    text-align: center;
+}
+ .mensaje span:first-child{
+ 	font-weight: bold;
+ 	font-size: 22px;	
+ }

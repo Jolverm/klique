@@ -1,5 +1,5 @@
 
-<nav class="sidebar" onmouseover="mostrar_menu();" onmouseout="ocultar_menu();">
+<nav class="sidebar">
   <ul id="slidingMenu" class="slidingMenu">
     <li><a href="<?php bloginfo('wpurl'); ?>">Inicio</a></li>
     <li><a href="<?php bloginfo('wpurl'); ?>/category/alimentos">Galeria</a></li>

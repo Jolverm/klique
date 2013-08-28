@@ -6,6 +6,9 @@
 
 <div class="principal">
 <!-- inicia paquetes -->
+
+
+
 		<div class="paquetes">
 
 			<?php query_posts('category_name=paquetes&posts_per_page=4&order=ASC'); ?>
@@ -22,13 +25,17 @@
 
 		</div><!-- termina paquetes -->
 
-					
+			<div class="adicionales">
+				<button Class="boton" onclick="location.href='<?php bloginfo('wpurl'); ?>/adicionales';">Productos Adicionales </button>
+				<a href="<?php bloginfo('wpurl'); ?>/adicionales"><img src="<?php bloginfo( 'template_directory' ); ?>/img/adicionales.png" alt="productos Adicionales"/></a>
+							</div>	
 
 
-		<div class="terminos">
+				<div class="terminos">
+
 			
 			<ul>
-			<li>Sesiones fotográficas con mascota. </li>
+			<li>Sesiones fotográficas con mascotas. </li>
 			<li>Pregunta por nuestros paquetes fotográficos para eventos.</li>
 			<li>También contamos con video y edición.</li>
 			<li>Las sesiones duran entre 30 minutos y 1 hora 30 minutos, dependiendo del paquete contratado y del número de integrantes por estudio.</li>

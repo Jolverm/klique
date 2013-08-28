@@ -22,11 +22,11 @@
         </div>
 
         <div class="imagenQuienes">
-            <img src="<?php bloginfo('template_directory');?>/img/quienes/<?php echo $imagen[$i]; ?>.jpg">
+            <img src="<?php bloginfo('template_directory');?>/img/quienes-somos/<?php echo $imagen[$i]; ?>.jpg">
         </div>
 
         <div class="fondoQuienes">
-        <img src="<?php bloginfo('template_directory');?>/img/quienes/<?php echo $imagen[$i]; ?>.jpg">
+        <img src="<?php bloginfo('template_directory');?>/img/quienes-somos/<?php echo $imagen[$i]; ?>.jpg">
         </div>
     <!-- termina imagene0 galeria -->
 <?php get_footer();?>

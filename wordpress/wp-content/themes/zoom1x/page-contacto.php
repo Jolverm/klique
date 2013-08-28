@@ -15,7 +15,7 @@
                 <a href ="mailto:xmonterde@klique.com.mx"> xmonterde@klique.com.mx</a> 
                 <a href ="mailto:contacto@klique.com.mx"> contacto@klique.com.mx</a>
                 <a href ="http://www.klique.com.mx">www.klique.com.mx</a><br>
-                <a href="https://www.facebook.com/Kliquefotografia?fref=ts">Facebook: klique</a> 
+                <a href="https://www.facebook.com/Kliquefotografia?fref=ts">Facebook: Klique fotografía</a> 
             </div>
             <div class="contacto">
 
@@ -26,7 +26,7 @@
                     <textarea class="campos" id="mensaje" name="mensaje" cols="43" rows="1" placeholder="mensaje" required="required"></textarea>
                     <div class="enviar">
                             <div class="ultimo">
-                                    <img src="<?php bloginfo( 'template_directory' ); ?>../img/loading.gif" class="ajaxgif hide" />
+                                    <img src="<?php bloginfo( 'template_directory' ); ?>/img/loading.gif" class="ajaxgif hide" />
                                     <div class="msg"></div>
                                     <button class="boton">enviar</button>
                             </div>
@@ -52,7 +52,7 @@
     </div>
 
     <div class="imagenDireccion">
-        <img src="<?php bloginfo( 'template_directory' ); ?>../img/qr.png"/>
+        <img src="<?php bloginfo( 'template_directory' ); ?>/img/qr.png"/>
                                     
     </div>
 </div>
