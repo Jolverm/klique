@@ -11,25 +11,14 @@
                             <?php $miniatura = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail' ); ?>
                             <?php $src2 = $miniatura['0']; ?>
                             <div class="imagenIndividualAdicionales">
-
                                     <div class="vista">  
-                 <img class="wp-post-image" src="<?php echo $src2 ?>" alt="<?php the_title();?>" />
-                <div class="mascara">  
-                    <h2><?php echo the_title();?></h2>  
-                    <p><?php echo the_excerpt();?></p>  
-                </div>  
-            </div>
-          
-
-
-
-
-
-
-                               
-                               
-
-                                                           </div><!-- fin de imagen individual-->
+                                       <img class="wp-post-image" src="<?php echo $src2 ?>" alt="<?php the_title();?>" />
+                                            <div class="mascara">  
+                                                <h2><?php echo the_title();?></h2>  
+                                                <p><?php echo the_excerpt();?></p>  
+                                            </div>  
+                                    </div>
+                            </div><!-- fin de imagen individual-->
                 <?php endwhile; else: ?>
                 <p><?php _e('Lo sentimos la categoria esta vacia.'); ?></p>
                 <?php endif; ?>

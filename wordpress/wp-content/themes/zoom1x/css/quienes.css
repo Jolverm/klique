@@ -36,8 +36,8 @@ body
 .quienesSomos
 {
 	
-	height: auto;
-	width: 700px;
+	height: 660px;
+	width: 900px;
 	position: relative;
 	z-index: 2;
 	float: left;
@@ -46,22 +46,4 @@ body
 {
 	float: left;
 	width: 640px;
-}
-.imagenQuienes
-{
-	margin: 0px 0px 0px 0px;
-	width: 250px;
-	height: 375px;
-	position: relative;
-	z-index: 10;
-	
-}
-
-.imagenQuienes img
-{
-	float: right;
-	margin: 15px 0px 0px 0px;
-	width: 250px;
-	height: 375px;
-
 }
