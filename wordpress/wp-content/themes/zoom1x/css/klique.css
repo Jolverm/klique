@@ -241,7 +241,7 @@ margin: 0px 0px 0px 25px ;
 {
     float: left;
     width: 900px;
-    height: 375px;
+    height: 660px;
     padding: 10px 10px 0 10px;
     background-color: #406531;
     opacity: 0.8; 
@@ -251,6 +251,10 @@ margin: 0px 0px 0px 25px ;
     font-weight: lighter;
     text-shadow: 0px 2px 3px #555;
     text-align: justify; 
+    position: relative;
+    z-index: 2;
+    float: left;
+
 }
 
 .quienesSomos p {  

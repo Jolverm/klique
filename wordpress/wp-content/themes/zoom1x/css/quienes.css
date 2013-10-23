@@ -38,12 +38,5 @@ body
 	
 	height: 660px;
 	width: 900px;
-	position: relative;
-	z-index: 2;
-	float: left;
-}
-.quienesSomos p
-{
-	float: left;
-	width: 640px;
+	
 }
